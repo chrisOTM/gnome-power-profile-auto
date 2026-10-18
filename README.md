@@ -4,7 +4,7 @@ GNOME Shell extension that sets the power mode automatically when you plug in or
 charger. Pick one mode for **AC power** and one for **battery** (Performance, Balanced or Power
 Saver).
 
-![Power Profile Auto settings: one power mode for AC power, one for battery](ressources/settings-screenshot.png)
+![Power Profile Auto settings: one power mode for AC power, one for battery](ressources/Settings-Screenshot.png)
 
 - Switches only when the power source changes (and when the extension starts). A mode you pick
   manually in Quick Settings stays until the next plug/unplug, it is not overwritten every time
