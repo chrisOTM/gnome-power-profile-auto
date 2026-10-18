@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.power-profile-auto"
+          path="/org/gnome/shell/extensions/power-profile-auto/">
+    <key name="ac-profile" type="s">
+      <choices>
+        <choice value="performance"/>
+        <choice value="balanced"/>
+        <choice value="power-saver"/>
+      </choices>
+      <default>"performance"</default>
+      <summary>Power mode on AC power</summary>
+    </key>
+    <key name="battery-profile" type="s">
+      <choices>
+        <choice value="performance"/>
+        <choice value="balanced"/>
+        <choice value="power-saver"/>
+      </choices>
+      <default>"balanced"</default>
+      <summary>Power mode on battery</summary>
+    </key>
+  </schema>
+</schemalist>

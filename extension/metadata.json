@@ -1,0 +1,9 @@
+{
+  "uuid": "power-profile-auto@chrisotm.github.io",
+  "name": "Power Profile Auto",
+  "description": "Set the power mode automatically when switching between AC power and battery.",
+  "shell-version": ["50", "51"],
+  "session-modes": ["user", "unlock-dialog"],
+  "settings-schema": "org.gnome.shell.extensions.power-profile-auto",
+  "url": "https://github.com/chrisOTM/gnome-power-profile-auto"
+}
